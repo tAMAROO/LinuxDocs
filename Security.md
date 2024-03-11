@@ -26,6 +26,7 @@
 
 ### Set target to drop:
 ```firewall-cmd --permanent --zone=Your_Zone_Here --set-target=DROP```
+
 ```firewall-cmd --reload```
 
 ## After firewall changes:
@@ -37,11 +38,14 @@
 
 ### Install ClamAV:
 ```sudo dnf upgrade --refresh```
+
 ```sudo dnf install clamav clamd clamav-update```
 
 ### Update ClamAV:
 ```sudo systemctl stop clamav-freshclam```
+
 ```sudo freshclam```
+
 ```sudo systemctl enable clamav-freshclam --now```
 
 ### Install ClamTK:
