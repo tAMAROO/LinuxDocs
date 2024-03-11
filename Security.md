@@ -32,7 +32,7 @@
 ## After firewall changes:
 
 ### Run updates to system:
-```sudo dnf update``
+```sudo dnf update```
 
 # ClamAV 
 
