@@ -22,7 +22,9 @@
 ##  2. Open SSH in the Firewall:
 
 1. Open the port you chose in the firewall:
+ 
    ```$ sudo firewall-cmd --permanent --zone="zone" --add-port=xxxx```
+   
    ```$ sudo firewall-cmd --reload```
 
 ## Research assets:
