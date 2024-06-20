@@ -6,7 +6,7 @@
 ```
 DEVICE  TYPE      STATE      CONNECTION
 
-{device name}  ethernet  connected  "device name"
+{device name}  ethernet  connected  {device name}
 
 lo      loopback  unmanaged  --
 ```
