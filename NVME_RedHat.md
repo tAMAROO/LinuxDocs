@@ -10,6 +10,10 @@ From research I found that the drive must be set to AHCI mode instead of RAID mo
  4. Reboot.
 
 
+Update:
+
+After a power outage the drive option may be set back to RAID, and the drive will not be recognized and send the system into an emergency mode.  To fix this just follow the steps above and set the drive option back to AHCI and reboot and the system will boot.
+
 
 ### Research assets:
 
