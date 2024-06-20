@@ -14,8 +14,8 @@ lo      loopback  unmanaged  --
 ##  Editing existing connection:
 
 ```
-$ sudo nmcli con modify '{device name}' ifname "device name" ipv4.method manual ipv4.addresses "IP address"/24 gw4 "Gateway address"
-$ sudo nmcli con modify '{device name}' ipv4.dns "DNS address"
+$ sudo nmcli con modify '{device name}' ifname {device name} ipv4.method manual ipv4.addresses {IP address}/24 gw4 {Gateway address}
+$ sudo nmcli con modify '{device name}' ipv4.dns {DNS address}
 $ sudo nmcli con down '{device name}'
 $ sudo nmcli con up '{device name}'
 ```
