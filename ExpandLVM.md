@@ -15,7 +15,7 @@
     ```
 2. Create a physical volume.  We will use /dev/sda for this:
 
-    ```$sudo pvcreat /dev/sda```
+    ```$sudo pvcreate /dev/sda```
 
 3. Identify the volume group:
 
