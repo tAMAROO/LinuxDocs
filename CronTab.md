@@ -13,6 +13,7 @@
 |MIN (Minute) | Specifies the minute when the command will run | Range: 0 to 59 |
 |HOUR | Denotes the hour of the day when the command is scheduled to execute. | Range 0 to 23 |
 |DOM (Day of Month) | Specifies the day of the month for the task. | Range: 1 to 31 |
+|MON (Month) | Indicates the month during which the command will be executed. | It varies from 1 to 12. |
 |DOW (Day of Week) | Specifies the day of the week for the task. | It is represented by numbers from 0 to 6, wher both 0 and 6 correspond to Sunday. |
 |CMD (Command) | Represents the actual command or script that whil run at the scheduled time. | NA |
 
